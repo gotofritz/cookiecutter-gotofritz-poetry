@@ -4,7 +4,7 @@ from cookiecutter.main import cookiecutter
 
 
 cookiecutter(
-    "work/cookiecutter-gotofritz-poetry",
+    "cookiecutter-gotofritz-poetry",
     replay=None,
     extra_context={"full_name": "<<<<ARRGGH"},
 )
