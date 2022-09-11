@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cookiecutter-gotofritz-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "cookiecutter_gotofritz_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
