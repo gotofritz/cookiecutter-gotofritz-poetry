@@ -22,23 +22,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}">
+  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">{{cookiecutter.verbose_project_name}}</h3>
 
   <p align="center">
     {{cookiecutter.project_description}}
     <br />
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}">View Demo</a>
+    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}">View Demo</a>
     ·
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}/issues">Report Bug</a>
+    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues">Report Bug</a>
     ·
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}/issues">Request Feature</a>
+    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues">Request Feature</a>
   </p>
 </div>
 
@@ -107,7 +107,7 @@ Use this space to show useful examples of how a project can be used.
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +142,7 @@ Distributed under the MIT License. See [LICENSE.md](./LICENSE.md) for more infor
 
 Your Name - [{{cookiecutter.mastodon_handle}}]({{cookiecutter.mastodon_url}})
 
-Project Link: [https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}}](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo}})
+Project Link: [https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}})
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
