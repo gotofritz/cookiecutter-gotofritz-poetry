@@ -1,6 +1,6 @@
 import re
 
-from {{cookiecutter.project_name}} import __version__ as version
+from {{cookiecutter.package_name}} import __version__ as version
 
 
 def test_version(fake):

@@ -1,5 +1,6 @@
 {
   "project_name": "new-project",
+  "package_name": "{{cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_')}}",
   "verbose_project_name": "My Awesome Project",
   "full_name": "Your Name",
   "github_username": "github_username",
