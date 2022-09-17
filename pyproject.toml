@@ -66,6 +66,7 @@ flake8-docstrings = ["-*"]
 [tool.mypy]
 warn_return_any = true
 warn_unused_configs = true
+exclude = "tests"
 
 [tools.pytest]
 norecursedirs = "{{cookiecutter.directory_name}}"

@@ -70,7 +70,7 @@ flake8-pytest-style = ["+*"]
 flake8-simplify = ["+*"]
 mccabe = ["+*"]
 pep8-naming = ["+*"]
-pycodestyle = ["+*"]
+pycodestyle = ["+*", "-W503"]
 pyflake = ["+*"]
 
 [tool.flakeheaven.exceptions."tests/"]
@@ -80,6 +80,7 @@ flake8-docstrings = ["-D100"]
 [tool.mypy]
 warn_return_any = true
 warn_unused_configs = true
+exclude = "tests"
 
 [tool.isort]
 profile = "black"
