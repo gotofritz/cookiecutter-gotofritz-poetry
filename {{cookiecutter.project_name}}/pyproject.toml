@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "specimen"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.full_name}} <{{cookiecutter.mastodon_handle}}>"]
@@ -42,7 +42,7 @@ source = ["src"]
 
 [tool.coverage.run]
 branch = true
-source = ["specimen"]
+source = ["{{cookiecutter.project_name}}"]
 
 [tool.coverage.report]
 fail_under = 100
