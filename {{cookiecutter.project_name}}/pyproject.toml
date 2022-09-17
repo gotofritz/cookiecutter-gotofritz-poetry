@@ -54,7 +54,7 @@ pythonpath = ["src"]
 [tool.flakeheaven]
 exclude = ["*.md", ".env", ".git", ".gitignore"]
 format = "grouped"
-max_line_length = 88
+max_line_length = {{cookiecutter.line_length}}
 show_source = true
 
 [tool.flakeheaven.plugins]
@@ -80,3 +80,13 @@ flake8-docstrings = ["-D100"]
 [tool.mypy]
 warn_return_any = true
 warn_unused_configs = true
+
+[tool.isort]
+profile = "black"
+atomic = true
+line_length = {{cookiecutter.line_length}}
+use_parentheses = true
+
+[tool.black]
+line_length = {{cookiecutter.line_length}}
+include = '\.pyi?$'

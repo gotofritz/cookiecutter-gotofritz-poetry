@@ -7,5 +7,6 @@
   "mastodon_handle": "@your_name@mastodon.social",
   "mastodon_url": "https://mastodon.social/@your_name",
   "project_description": "this is a project",
-  "python_version": "3.10.4"
+  "python_version": "3.10.6",
+  "line_length": "88"
 }
