@@ -34,7 +34,7 @@ test: ## runs tests
 safety: ## tests third part packages against a database of known compromised ones
 	poetry export --with dev --format=requirements.txt --without-hashes | poetry run safety check --stdin
 
-qa: safety lint test ## for CI/CD. Runs all code quality tools
+qa: lint test safety ## for CI/CD. Runs all code quality tools
 .PHONY: qa
 
 qa-local: format qa ## for local development (before checking in). Formats code and runs qa
