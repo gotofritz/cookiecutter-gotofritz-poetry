@@ -75,6 +75,7 @@ mccabe = ["+*"]
 pep8-naming = ["+*"]
 pycodestyle = ["+*", "-W503"]
 pyflake = ["+*"]
+pyflakes = ["+*"]
 
 [tool.flakeheaven.exceptions."tests/"]
 flake8-bandit = ["-S101"]
