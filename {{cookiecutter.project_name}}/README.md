@@ -20,29 +20,22 @@
 -->
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">{{cookiecutter.verbose_project_name}}</h3>
+<h1>{{cookiecutter.verbose_project_name}}</h1>
 
-  <p align="center">
-    {{cookiecutter.project_description}}
-    <br />
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}">View Demo</a>
-    ·
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues">Request Feature</a>
-  </p>
-</div>
+<p>{{cookiecutter.project_description}}</p>
+<nav>
+  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}">Repo</a>
+  |
+  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues">Report Bug</a>
+  |
+  <a href="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/releases">Releases</a>
+</nav>
 
 <!-- TABLE OF CONTENTS -->
+
+<br><br>
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -61,15 +54,14 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
+<br><br>
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-Description will go here.
+[TODO]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,16 +69,18 @@ Description will go here.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a standard Python project that runs on the CLI.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+- python >= 3.10 (it will probably work with lower versions, but I haven't tested it)
+- poetry >= 1.2
 
 ### Installation
 
-1.
+1. Install dependencies `> poetry install && poetry shell`
+1. Install the language model `> python -m spacy download de_core_news_sm`
+1. Run with [TODO]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +88,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used.
+[TODO] Use this space to show useful examples of how a project can be used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,16 +134,8 @@ Distributed under the MIT License. See [LICENSE.md](./LICENSE.md) for more infor
 
 ## Contact
 
-Your Name - [{{cookiecutter.mastodon_handle}}]({{cookiecutter.mastodon_url}})
+Fritz, [{{cookiecutter.mastodon_handle}}]({{cookiecutter.mastodon_url}})
 
-Project Link: [https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}})
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- Put some links here
+Project Link: [https://github.com/gotofritz/german-learning](https://github.com/gotofritz/german-learning)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
