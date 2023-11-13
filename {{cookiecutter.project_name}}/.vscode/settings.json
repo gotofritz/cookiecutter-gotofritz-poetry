@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "<interpreter_path>",
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/tests"
+  },
+  "python.envFile": "${workspaceFolder}/.env"
+}
